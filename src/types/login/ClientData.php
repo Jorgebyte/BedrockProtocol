@@ -151,4 +151,13 @@ final class ClientData{
 
 	/** @required */
 	public int $UIProfile;
+	
+	/** @required */
+	public int $MaxViewDistance;
+
+	/** @required */
+	public int $MemoryTier;
+
+	/** @required */
+	public string $PlatformType;
 }
